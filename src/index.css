@@ -8,33 +8,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Chess coaching theme - deep navy, warm gold, premium feel */
+    --background: 220 25% 98%;
+    --foreground: 220 25% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 25% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 25% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep navy primary for chess sophistication */
+    --primary: 220 45% 15%;
+    --primary-foreground: 220 20% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm secondary tones */
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 15% 94%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Golden accent for premium coaching feel */
+    --accent: 45 85% 55%;
+    --accent-foreground: 220 25% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 220 20% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 220 45% 15%;
+
+    /* Chess coaching specific colors */
+    --coach-primary: 220 45% 15%;
+    --coach-gold: 45 85% 55%;
+    --coach-success: 145 65% 45%;
+    --coach-warning: 35 85% 55%;
+    
+    /* Beautiful gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 45% 15%), hsl(220 35% 25%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 15% 96%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 85% 55%), hsl(35 75% 60%));
+    
+    /* Premium shadows */
+    --shadow-soft: 0 4px 20px hsl(220 25% 8% / 0.08);
+    --shadow-medium: 0 8px 30px hsl(220 25% 8% / 0.12);
+    --shadow-strong: 0 15px 40px hsl(220 25% 8% / 0.15);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
